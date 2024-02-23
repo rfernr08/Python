@@ -14,5 +14,5 @@ def main():
     result = count_words_in_url(url)
     print(result)
 
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
