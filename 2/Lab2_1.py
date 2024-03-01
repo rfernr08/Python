@@ -41,9 +41,7 @@ def play_game():
                 scores[name] = points
                 save_scores(scores)
             break
-
         print(f"Trials left: {max_trials - trials}")
-
     else:
         print("Sorry, you didn't guess the number.")
 
