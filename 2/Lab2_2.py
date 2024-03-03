@@ -1,4 +1,4 @@
-from vector3d import Vector3D
+from Vector3D import Vector3D
 
 # a. Initialize the vector with the coordinates (0, 0, 0)
 v = Vector3D(0, 0, 0)
