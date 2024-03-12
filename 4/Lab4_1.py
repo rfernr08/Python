@@ -1,10 +1,15 @@
 import pandas as pd
 
-#Loading Data
-df = pd.read_csv("student_data.csv")
+# Define column names
+column_names = ["Name", "Age", "Score"]
+
+# Load data
+df = pd.read_csv("student_data.csv", names=column_names)
 
 #Display the first 5 rows of the DataFrame
 print(df.head())
+
+#print(df.columns)
 
 #Print the data types of each column
 print(df.dtypes)
