@@ -57,7 +57,7 @@ if __name__ == "__main__":
     Use the function train_test_split from scikit_learn
     """
     # ====================== YOUR CODE HERE ======================
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=proportion_test, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=proportion_test)
     # ============================================================
 
     """
